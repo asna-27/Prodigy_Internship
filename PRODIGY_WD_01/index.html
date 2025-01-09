@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Navigation Menu</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet"> <!-- Add Google Font -->
+</head>
+<body>
+    <nav id="gaming-nav">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#games">Games</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="content">
+        <section id="home">
+            <h1 class="section-title">HOME</h1>
+            <div class="carousel-container">
+                <div class="carousel-slide">
+                    <img src="assets/backgrounds/bg-1.jpg" alt="Game 1">
+                    <img src="assets/backgrounds/bg-2.jpg" alt="Game 2">
+                    <img src="assets/backgrounds/bg-3.jpg" alt="Game 3">
+                    <img src="assets/backgrounds/bg-4.jpg" alt="Game 4">
+                    <img src="assets/backgrounds/bg-5.jpg" alt="Game 5">
+                </div>
+            </div>
+            <div class="carousel-controls">
+                <button class="prev">❮</button>
+                <button class="next">❯</button>
+            </div>
+        </section>
+
+        <section id="games">
+            <h1 class="section-title">GAMES</h1>
+            <div class="game-grid">
+                <div class="game-block">
+                    <h2>Call of Duty®</h2>
+                    <img src="assets/gamess/g1.jpg" alt="Call of Duty" class="game-image" data-img-src="g1.jpg">
+                    <p>Call of Duty® HQ supports Call of Duty®: Black Ops 6, Call of Duty®: Modern Warfare® III, Call of Duty®: Modern Warfare® II and Call of Duty®: Warzone™.</p>
+                </div>
+                <div class="game-block">
+                    <h2>Sins of a Solar Empire II</h2>
+                    <img src="assets/gamess/g2.jpg" alt="Sins of a Solar Empire II" class="game-image" data-img-src="g2.jpg">
+                    <p>Sins of a Solar Empire II is the sequel to the critically acclaimed space strategy game that seamlessly blends real-time battle tactics with the depth of 4X. As both emperor and battle commander you must lead one of six playable factions to victory against the threat of extinction!</p>
+                </div>
+                <div class="game-block">
+                    <h2>Dead by Daylight</h2>
+                    <img src="assets/gamess/g3.jpg" alt="Dead by Daylight" class="game-image" data-img-src="g3.jpg">
+                    <p>Dead by Daylight is a multiplayer (4vs1) horror game where one player takes on the role of the savage Killer, and the other four players play as Survivors, trying to escape the Killer and avoid being caught, tortured and killed.</p>
+                </div>
+                <div class="game-block">
+                    <h2>FINAL FANTASY XIV Online</h2>
+                    <img src="assets/gamess/g4.jpg" alt="FINAL FANTASY XIV Online" class="game-image" data-img-src="g4.jpg">
+                    <p>Party up with friends or play solo! Experience all the main story dungeons on your own by calling upon NPC allies to fight by your side.</p>
+                </div>
+                <div class="game-block">
+                    <h2>Once Human</h2>
+                    <img src="assets/gamess/g5.jpg" alt="Once Human" class="game-image" data-img-src="g5.jpg">
+                    <p>The apocalypse changed everything. Human, animal, plant… all are infested by an alien creature – Stardust. As a Meta-Human, you can survive the contamination and use the power of Stardust. Play alone or join others to fight, build and explore. When the world is in chaos, you are our last hope.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h1 class="section-title">CONTACT</h1>
+            <div class="contact-links">
+                <a href="https://www.linkedin.com/in/aftaab-muhammed-0a8524240/" target="_blank">
+                    <img src="assets/miscs/linkedinicon.png" alt="LinkedIn" class="contact-icon">
+                </a>
+                <a href="https://github.com/AftaabORAF" target="_blank">
+                    <img src="assets/miscs/githubicon.png" alt="GitHub" class="contact-icon">
+                </a>
+            </div>
+        </section>
+    </div>
+
+    <div id="image-popup" class="popup">
+        <span class="close">&times;</span>
+        <img class="popup-content" id="popup-img">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
